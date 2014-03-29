@@ -19,4 +19,17 @@ describe PhoneNumber do
   it 'is associated with a person' do
   	expect(phone_number).to respond_to(:person)
   end
+
+#  it 'has a link to add a new phone number' do
+#    expect(page).to have_link('Add phone number', href: new_phone_number_path(person_id: person.id))
+#  end
+#  it 'adds a new phone number' do
+#    pending
+#    page.click_link('Add phone number')
+#    page.fill_in('Number', with: '555-8888')
+#    page.click_button('Create Phone number')
+#    expect(current_path).to eq(person_path(person))
+#    expect(page).to have_content('555-8888')
+#  end
+
 end
