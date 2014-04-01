@@ -6,7 +6,7 @@
 development:
   adapter: sqlite3
   encoding: utf8
-  database: db/development.sqlite3
+  database: contact_manager_development
   username: root
   password:
   pool: 5
@@ -18,7 +18,7 @@ development:
 test:
   adapter: sqlite3
   encoding: utf8
-  database: db/test.sqlite3
+  database: contact_manager_test
   username: root
   password:
   pool: 5
@@ -27,7 +27,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: db/production.sqlite3
+  database: db/contact_manager_production
   pool: 5
   username: root
   password:
